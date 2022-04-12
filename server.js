@@ -12,10 +12,10 @@ async function selectAllEmployees(req, res,selection, database) {
     let result;
     try {
         connection = await oracledb.getConnection({
-            user: "SIL_ALUNOS",
-            password: "dbalunos",
+            user: "",
+            password: "",
             connectString:
-                "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.85.130)(PORT = 1522)) (CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = AIDAPDB1)))",
+                ,
             headers: {
                 Accept: "Application/json",
             },
