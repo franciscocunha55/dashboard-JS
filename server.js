@@ -67,10 +67,9 @@ async function selectTable_HL7_Recebe(req,res){
     try {
 
         connection = await oracledb.getConnection({
-            user: "SIL_ALUNOS",
-            password: "dbalunos",
+            user: "",
+            password: "",
             connectString:
-                "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.85.130)(PORT = 1522)) (CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = AIDAPDB1)))",
             headers: {
                 Accept: "Application/json",
             },
@@ -118,10 +117,9 @@ async function selectTable_HL7_Envia(req,res){
     try {
 
         connection = await oracledb.getConnection({
-            user: "SIL_ALUNOS",
-            password: "dbalunos",
+            user: "",
+            password: "",
             connectString:
-                "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.85.130)(PORT = 1522)) (CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = AIDAPDB1)))",
             headers: {
                 Accept: "Application/json",
             },
@@ -169,10 +167,9 @@ async function selectTable_Lab_Activos(req,res){
     try {
 
         connection = await oracledb.getConnection({
-            user: "SIL_ALUNOS",
-            password: "dbalunos",
+            user: "",
+            password: "",
             connectString:
-                "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.85.130)(PORT = 1522)) (CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = AIDAPDB1)))",
             headers: {
                 Accept: "Application/json",
             },
@@ -220,10 +217,9 @@ async function select_Parametrizacoes(req,res){
     try {
 
         connection = await oracledb.getConnection({
-            user: "SIL_ALUNOS",
-            password: "dbalunos",
+            user: "",
+            password: "",
             connectString:
-                "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.85.130)(PORT = 1522)) (CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = AIDAPDB1)))",
             headers: {
                 Accept: "Application/json",
             },
@@ -275,10 +271,9 @@ async function update_Parametrizacoes(req,res){
     try {
 
         connection = await oracledb.getConnection({
-            user: "SIL_ALUNOS",
-            password: "dbalunos",
+            user: "",
+            password: "",
             connectString:
-                "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.85.130)(PORT = 1522)) (CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = AIDAPDB1)))",
             headers: {
                 Accept: "Application/json",
             },
